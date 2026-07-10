@@ -38,13 +38,24 @@
   }
 }
 
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .modal {
   position: relative;
   width: 400px;
   background-color: white;
   border-radius: 10px;
   padding: 24px;
-  animation: fadeIn 0.3s ease;
+  animation: scaleIn 0.3s ease;
 }
 
 .modal-close {
