@@ -6,11 +6,11 @@
 }
 
 .app{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 100vh;
 }
 
 h2{
@@ -21,17 +21,23 @@ main{
     border: rgb(211, 211, 211) 1px solid;
     padding: 20px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
     flex-direction: column;
     border-radius: 15px;
 }
 
-.opt-input{
-    width: 50px;
-    height: 50px;
+.otp-input{
+    width: 3rem;
+    height: 3rem;
     text-align: center;
     font-size: 24px;
     margin: 5px;
-    border-radius: 9px;
+    border-radius: 10px;
     border: rgb(223, 223, 223) 2px solid;
+    cursor: text;
+}
+
+.otp-input:focus{
+    outline: none;
+    border-color: blue;
 }

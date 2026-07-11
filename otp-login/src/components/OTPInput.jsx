@@ -62,7 +62,7 @@ const OTPInput = ({ length, onComplete }) => {
           inputMode="numeric"
           value={digit}
           maxLength={1}
-          className="opt-input"
+          className="otp-input"
           onChange={(e) => handleChange(e, index)}
           ref={(el) => (inputRefs.current[index] = el)}
           onKeyDown={(e) =>{ handleBackspace(e, index); 
