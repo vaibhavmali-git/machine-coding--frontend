@@ -69,7 +69,7 @@ const OTPInput = ({ length, onComplete }) => {
             handleArrowNavigation(e, index)}}
           aria-label={`OTP digit ${index+1}`}
           autoComplete="one-time-code"
-          patter="\d*"
+          pattern="\d*"
         />
       ))}
     </div>

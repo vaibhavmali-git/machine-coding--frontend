@@ -14,7 +14,7 @@ const App = () => {
       <main>
         <h2>OTP Verification</h2>
 
-        <OTPInput length={6} onComplete={handleComplete} />
+        <OTPInput length={4} onComplete={handleComplete} />
       </main>
     </div>
   );
